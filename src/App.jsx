@@ -1,5 +1,6 @@
 
 import './App.css'
+import './component/PetCard'
 
 function App() {
  const UserName = "Kattia Contreras"
