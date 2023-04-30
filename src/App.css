@@ -1,1 +1,23 @@
 
+
+
+
+body {
+
+    background-image: linear-gradient(to top, #937f64 0%, #e5dbb9 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .pet-card{
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    border:1px solid #a6a18f;
+    padding: 1rem 1.5rem;
+    width: 350px;
+    margin: 1rem auto; /*Tarjetita centrada al centro*/
+    background-attachment: fixed;
+    background-image:linear-gradient(to top,#f2d286 0%,#f19d76 90%);
+    background-clip:inherit ;
+    -webkit-background-clip:content-box;
+    color: transparent;
+
+  }

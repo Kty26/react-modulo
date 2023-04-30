@@ -1,17 +1,56 @@
 
 import './App.css'
 import './component/PetCard'
+import PetCard2 from './component/PetCard copy'
+import PetCard from './component/PetCard'
+import FotoPerro from './assets/img/perro.jpg'
+
 
 function App() {
- const UserName = "Kattia Contreras"
- const edad = 34
+
 
   return (
     <>
-       <h1>Aprendiendo React</h1>
-       <h2> Usuario: {" " + UserName + ". "} </h2>
-       <h2>Edad: {" " + edad}</h2>
-       <img src="https://picsum.photos/200/300" alt="Imagen ramdom de picsum https://picsum.photos/200/300" />
+     
+     <div>
+
+     <img src="/french.jpg" alt="" width= "350px" />
+        <PetCard2
+        
+         petName= "Sushy"
+         especie= "Perro"
+         edad = "5" 
+         color= "Blanco"
+         genero= "Macho"
+         />
+         
+         <img src={FotoPerro} alt="" width= "350px" />
+         
+         <PetCard2
+         petName= "Thor"
+         especie= "Perro"
+         edad = "4" 
+         color= "Marrón"
+         genero= "Macho"
+         />
+        
+        <img src="/Gato.jpg" alt="" width= "350px" />
+         <PetCard
+         petName= "Shumy"
+         especie= {"Gato"}
+         edad =  {5}
+         color= "Blanco/Amarillo"
+         genero= "Macho"
+         /> 
+         
+         </div> 
+
+        
+        
+
+        
+       
+
     </>
   )
 }
